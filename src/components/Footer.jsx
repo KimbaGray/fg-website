@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div>
         <div className="footer">
-          <div className="lineBreak"></div>Design and build by Kim Gray
+          <div></div>Design and build by Kim Gray
         </div>
       </div>
     );

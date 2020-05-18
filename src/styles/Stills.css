@@ -1,16 +1,16 @@
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+  /* -ms-flex-wrap: wrap; /* IE10 */
+  /* flex-wrap: wrap; */
+  padding-top: 70px;
+  padding-left: 25px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  padding-top: 70px;
-  padding-left: 25px;
   padding-right: 25px;
 }
 
