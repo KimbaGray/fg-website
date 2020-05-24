@@ -121,7 +121,7 @@ class Stills extends Component {
           <img src={FG_54} alt="Brazilian Glow Logo" className="stills" />
         </div>
         <div className="column">
-          <img src={FG_37} alt="Brazilian Glow Logo" className="stills" />
+          <img src={FG_56} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_38} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_39} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_40} alt="Brazilian Glow Logo" className="stills" />
@@ -141,7 +141,7 @@ class Stills extends Component {
         </div>
         <div className="column">
           <img src={FG_55} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_56} alt="Brazilian Glow Logo" className="stills" />
+          <img src={FG_37} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_57} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_58} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_59} alt="Brazilian Glow Logo" className="stills" />
@@ -156,7 +156,6 @@ class Stills extends Component {
           <img src={FG_68} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_69} alt="Brazilian Glow Logo" className="stills" />
           <img src={FG_70} alt="Brazilian Glow Logo" className="stills" />
-
           <img src={FG_72} alt="Brazilian Glow Logo" className="stills" />
         </div>
       </div>

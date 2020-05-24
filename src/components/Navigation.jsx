@@ -13,11 +13,11 @@ class Navigation extends Component {
                 Stills
               </Link>{" "}
             </span>
-            <span className="navLink">
+            {/* <span className="navLink">
               <Link className="nav-link" to="/Advertisements">
                 Advertisements
               </Link>
-            </span>{" "}
+            </span>{" "} */}
             <span className="navLink">
               <Link className="nav-link" to="/About">
                 About

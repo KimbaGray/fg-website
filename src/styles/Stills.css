@@ -1,23 +1,23 @@
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
-  /* -ms-flex-wrap: wrap; /* IE10 */
-  /* flex-wrap: wrap; */
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
   padding-top: 70px;
-  padding-left: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  padding-right: 25px;
 }
 
 .column img {
   margin-top: 10px;
   vertical-align: middle;
-  width: 100%;
+  width: 90%;
   padding-bottom: 15px;
 }
 
