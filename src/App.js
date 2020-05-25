@@ -17,6 +17,7 @@ function App() {
       <div>
         <Navigation />
         <Switch>
+          <Route exact path="/" component={Stills} />
           <Route exact path="/stills" component={Stills} />
           <Route path="/about" component={About} />
           <Route path="/advertisements" component={Advertisements} />

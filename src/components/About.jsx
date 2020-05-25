@@ -32,6 +32,12 @@ class About extends Component {
           shredding the guitar and hustling pool halls. Also she loves Alan
           Jackson. LOVES. Big country music fan.
         </p>
+        <p className="enqueries">
+          Inquiries:{" "}
+          <a href="mailto:felicitygabriellagray@gmail.com">
+            felicitygabriellagray@gmail.com
+          </a>
+        </p>
       </div>
     );
   }

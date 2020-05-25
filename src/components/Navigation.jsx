@@ -17,7 +17,7 @@ class Navigation extends Component {
               <Link className="nav-link" to="/Advertisements">
                 Advertisements
               </Link>
-            </span>{" "} */}
+            </span> */}
             <span className="navLink">
               <Link className="nav-link" to="/About">
                 About
