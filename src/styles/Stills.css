@@ -3,9 +3,13 @@
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding-top: 60px;
+  padding-top: 70px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+a {
+  color: #6d6e70;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -15,10 +19,23 @@
 }
 
 .column img {
-  margin-top: 30px;
   vertical-align: middle;
   width: 90%;
-  padding-bottom: 15px;
+  padding: 15px;
+}
+
+.topButton {
+  padding-top: 70px;
+}
+
+.myBtn {
+  padding: 10px;
+  padding-bottom: 6px;
+  background: #6d6e70;
+  color: white;
+  border-color: #6d6e70;
+  font-size: 22px;
+  border-radius: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

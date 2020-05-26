@@ -48,115 +48,121 @@ import FG_45 from "../images/Stills/FG_45.png";
 import FG_46 from "../images/Stills/FG_46.png";
 import FG_47 from "../images/Stills/FG_47.png";
 import FG_48 from "../images/Stills/FG_48.png";
-import FG_49 from "../images/Stills/FG_10.jpg";
-import FG_50 from "../images/Stills/FG_11.jpg";
-import FG_51 from "../images/Stills/FG_12.jpg";
-import FG_52 from "../images/Stills/FG_13.jpg";
-import FG_53 from "../images/Stills/FG_14.jpg";
-import FG_54 from "../images/Stills/FG_15.jpg";
-import FG_55 from "../images/Stills/FG_16.jpg";
-import FG_56 from "../images/Stills/FG_17.jpg";
-import FG_57 from "../images/Stills/FG_10.jpg";
-import FG_58 from "../images/Stills/FG_11.jpg";
-import FG_59 from "../images/Stills/FG_12.jpg";
-import FG_60 from "../images/Stills/FG_13.jpg";
-import FG_61 from "../images/Stills/FG_14.jpg";
-import FG_62 from "../images/Stills/FG_15.jpg";
-import FG_63 from "../images/Stills/FG_16.jpg";
-import FG_64 from "../images/Stills/FG_17.jpg";
+import FG_49 from "../images/Stills/FG_49.jpg";
+import FG_50 from "../images/Stills/FG_50.jpg";
+import FG_51 from "../images/Stills/FG_51.jpg";
+import FG_52 from "../images/Stills/FG_52.jpg";
+import FG_53 from "../images/Stills/FG_53.jpg";
+import FG_54 from "../images/Stills/FG_54.jpg";
+import FG_55 from "../images/Stills/FG_55.jpg";
+import FG_56 from "../images/Stills/FG_56.jpg";
+import FG_57 from "../images/Stills/FG_57.jpg";
+import FG_58 from "../images/Stills/FG_58.jpg";
+import FG_59 from "../images/Stills/FG_59.jpg";
+import FG_60 from "../images/Stills/FG_60.jpg";
+import FG_61 from "../images/Stills/FG_61.jpg";
+import FG_62 from "../images/Stills/FG_62.jpg";
+import FG_63 from "../images/Stills/FG_63.jpg";
+import FG_64 from "../images/Stills/FG_64.jpg";
 import FG_65 from "../images/Stills/FG_65.png";
 import FG_66 from "../images/Stills/FG_66.jpg";
 import FG_67 from "../images/Stills/FG_67.png";
 import FG_68 from "../images/Stills/FG_68.jpg";
 import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
-import FG_71 from "../images/Stills/FG_71.png";
-import FG_72 from "../images/Stills/FG_72.jpg";
+import FG_71 from "../images/Stills/FG_71.jpg";
+import { IoIosArrowUp } from "react-icons/io";
 
 class Stills extends Component {
   state = {};
   render() {
     return (
-      <div className="row">
-        <div className="column">
-          <img src={FG_1} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_2} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_5} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_6} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_7} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_8} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_9} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_10} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_11} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_12} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_13} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_14} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_15} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_16} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_17} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_18} alt="Brazilian Glow Logo" className="stills" />
+      <div>
+        <div className="topButton">
+          <button onclick="topFunction()" className="myBtn" title="Go to top">
+            <IoIosArrowUp />
+          </button>
         </div>
-        <div className="column">
-          <img src={FG_19} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_20} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_21} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_22} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_23} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_24} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_25} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_26} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_27} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_28} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_29} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_30} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_31} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_32} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_33} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_34} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_35} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_36} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_53} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_54} alt="Brazilian Glow Logo" className="stills" />
-        </div>
-        <div className="column">
-          <img src={FG_56} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_38} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_39} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_40} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_41} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_42} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_43} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_44} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_45} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_46} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_47} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_48} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_49} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_50} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_51} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_52} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_71} alt="Brazilian Glow Logo" className="stills" />
-        </div>
-        <div className="column">
-          <img src={FG_55} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_37} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_57} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_58} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_59} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_60} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_61} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_62} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_63} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_64} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_65} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_66} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_67} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_68} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_69} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_70} alt="Brazilian Glow Logo" className="stills" />
-          <img src={FG_72} alt="Brazilian Glow Logo" className="stills" />
+        <div className="row">
+          <div className="column">
+            <img src={FG_1} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_2} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_5} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_6} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_7} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_8} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_9} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_10} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_11} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_12} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_13} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_14} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_15} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_16} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_17} alt="Brazilian Glow Logo" className="stills" />
+          </div>
+          <div className="column">
+            <img src={FG_19} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_20} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_21} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_22} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_23} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_24} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_25} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_26} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_27} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_28} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_29} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_30} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_31} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_32} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_33} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_34} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_35} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_36} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_53} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_54} alt="Brazilian Glow Logo" className="stills" />
+          </div>
+          <div className="column">
+            <img src={FG_56} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_38} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_39} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_40} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_41} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_42} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_43} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_44} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_45} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_46} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_47} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_48} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_49} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_50} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_51} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_52} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_71} alt="Brazilian Glow Logo" className="stills" />
+          </div>
+          <div className="column">
+            <img src={FG_55} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_37} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_57} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_58} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_59} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_60} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_61} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_62} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_63} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_64} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_65} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_66} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_67} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_68} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_69} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_70} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_18} alt="Brazilian Glow Logo" className="stills" />
+          </div>
         </div>
       </div>
     );
