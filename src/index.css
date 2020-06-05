@@ -6,3 +6,18 @@ body {
   color: #6d6e70;
   background-color: white;
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.arrowUp {
+  background-color: #6d6e70;
+  color: white;
+  font-size: 30px;
+  margin-right: 2vh;
+  border-radius: 3px;
+}

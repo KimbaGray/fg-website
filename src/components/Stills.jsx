@@ -78,11 +78,6 @@ class Stills extends Component {
   render() {
     return (
       <div>
-        <div className="topButton">
-          <button onclick="topFunction()" className="myBtn" title="Go to top">
-            <IoIosArrowUp />
-          </button>
-        </div>
         <div className="row">
           <div className="column">
             <img src={FG_1} alt="Brazilian Glow Logo" className="stills" />
