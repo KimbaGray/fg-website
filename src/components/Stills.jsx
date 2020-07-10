@@ -71,7 +71,6 @@ import FG_68 from "../images/Stills/FG_68.jpg";
 import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
 import FG_71 from "../images/Stills/FG_71.jpg";
-import { IoIosArrowUp } from "react-icons/io";
 
 class Stills extends Component {
   state = {};
