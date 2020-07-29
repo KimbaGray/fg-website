@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Stills.css";
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css";
 import FG_1 from "../images/Stills/FG_1.png";
 import FG_2 from "../images/Stills/FG_2.png";
 import FG_3 from "../images/Stills/FG_3.png";
@@ -72,14 +74,34 @@ import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
 import FG_71 from "../images/Stills/FG_71.jpg";
 
+const images = {
+  image1: require("../images/Stills/FG_1.png"),
+  image2: require("../images/Stills/FG_2.png"),
+};
+
 class Stills extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      photoIndex: 0,
+      isOpen: false,
+    };
+  }
+
   render() {
+    const { photoIndex, isOpen } = this.state;
+
     return (
       <div>
         <div className="row">
           <div className="column">
-            <img src={FG_1} alt="Brazilian Glow Logo" className="stills" />
+            <img
+              src={FG_1}
+              alt="Brazilian Glow Logo"
+              className="stills"
+              onClick={() => this.setState({ isOpen: true })}
+            />
             <img src={FG_2} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
@@ -96,6 +118,28 @@ class Stills extends Component {
             <img src={FG_15} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_16} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_17} alt="Brazilian Glow Logo" className="stills" />
+
+            {isOpen && (
+              <Lightbox
+                mainSrc={images[photoIndex]}
+                nextSrc={images[(photoIndex + 1) % images.length]}
+                prevSrc={
+                  images[(photoIndex + images.length - 1) % images.length]
+                }
+                onCloseRequest={() => this.setState({ isOpen: false })}
+                onMovePrevRequest={() =>
+                  this.setState({
+                    photoIndex:
+                      (photoIndex + images.length - 1) % images.length,
+                  })
+                }
+                onMoveNextRequest={() =>
+                  this.setState({
+                    photoIndex: (photoIndex + 1) % images.length,
+                  })
+                }
+              />
+            )}
           </div>
           <div className="column">
             <img src={FG_19} alt="Brazilian Glow Logo" className="stills" />

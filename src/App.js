@@ -7,6 +7,7 @@ import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
 import Footer from "./components/Footer.jsx";
+import Modal from "./components/Modal.jsx";
 
 function App() {
   return (
