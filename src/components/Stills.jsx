@@ -74,10 +74,11 @@ import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
 import FG_71 from "../images/Stills/FG_71.jpg";
 
-const images = {
-  image1: require("../images/Stills/FG_1.png"),
-  image2: require("../images/Stills/FG_2.png"),
-};
+const images = [
+  "../images/Stills/FG_1.png",
+  "../images/Stills/FG_2.png",
+  "../images/Stills/FG_3.png",
+];
 
 class Stills extends Component {
   constructor(props) {
@@ -102,7 +103,12 @@ class Stills extends Component {
               className="stills"
               onClick={() => this.setState({ isOpen: true })}
             />
-            <img src={FG_2} alt="Brazilian Glow Logo" className="stills" />
+            <img
+              src={FG_2}
+              alt="Brazilian Glow Logo"
+              className="stills"
+              onClick={() => this.setState({ isOpen: true })}
+            />
             <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_5} alt="Brazilian Glow Logo" className="stills" />
