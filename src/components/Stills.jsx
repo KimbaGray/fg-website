@@ -74,21 +74,13 @@ import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
 import FG_71 from "../images/Stills/FG_71.jpg";
 
-const images = [
-  "../images/Stills/FG_1.png",
-  "../images/Stills/FG_2.png",
-  "../images/Stills/FG_3.png",
-];
+const images = [{ FG_1, FG_2, FG_3, FG_4 }];
 
 class Stills extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      photoIndex: 0,
-      isOpen: false,
-    };
-  }
+  state = {
+    photoIndex: 0,
+    isOpen: false,
+  };
 
   render() {
     const { photoIndex, isOpen } = this.state;
