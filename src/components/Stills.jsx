@@ -74,7 +74,7 @@ import FG_69 from "../images/Stills/FG_69.jpg";
 import FG_70 from "../images/Stills/FG_70.jpg";
 import FG_71 from "../images/Stills/FG_71.jpg";
 
-const images = [{ FG_1, FG_2, FG_3, FG_4 }];
+const images = [FG_1, FG_2, FG_3, FG_4];
 
 class Stills extends Component {
   state = {
