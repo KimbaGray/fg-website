@@ -3,7 +3,7 @@
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding-top: 9vh;
+  padding-top: 7.5vh;
   margin-left: 1.5vh;
   margin-right: 1.5vh;
 }
@@ -24,7 +24,7 @@ a {
   padding: 1.5vh;
 }
 
-img:hover {
+.stills:hover {
   opacity: 0.7;
   cursor: pointer;
 }

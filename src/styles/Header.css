@@ -1,13 +1,14 @@
 .logo {
-  width: 25%;
-  padding: 50px;
-  padding-top: 70px;
+  width: 15vh;
+  margin: 5vh;
+  margin-top: 7vh;
   align-items: center;
 }
 
 @media only screen and (min-width: 600px) {
   .logo {
-    width: 8%;
-    padding: 70px;
+    width: 10%;
+    margin: 7vh;
+    margin-bottom: 5vh;
   }
 }
