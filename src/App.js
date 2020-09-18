@@ -7,6 +7,7 @@ import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
 import Footer from "./components/Footer.jsx";
+import Test from "./components/Test.jsx";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Stills} />
-          <Route exact path="/stills" component={Stills} />
+          <Route exact path="/stills" component={Test} />
           <Route path="/about" component={About} />
           <Route path="/advertisements" component={Advertisements} />
         </Switch>
