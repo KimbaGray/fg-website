@@ -28,9 +28,9 @@ class About extends Component {
           Samsung and Pepsi.
         </p> */}
         <p>
-          That stuff's cool.. but Felicity also enjoys making vibrant soy wax
-          candles, sourcing vintage glass and collecting wooden spoons. Also she
-          loves baskets. LOVES. Big basket fan.
+          That stuff's cool.. but Felicity also enjoys making soy wax candles,
+          sourcing vintage glass and collecting wooden spoons. Also she loves
+          baskets. LOVES. Big basket fan.
         </p>
         <p className="enqueries">
           Inquiries:{" "}
