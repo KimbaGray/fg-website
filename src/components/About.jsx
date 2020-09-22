@@ -32,7 +32,7 @@ class About extends Component {
           sourcing vintage glass and collecting wooden spoons. Also she loves
           baskets. LOVES. Big basket fan.
         </p>
-        <p className="enqueries">
+        <p className="inquiries">
           Inquiries:{" "}
           <a href="mailto:felicitygabriellagray@gmail.com">
             felicitygabriellagray@gmail.com
