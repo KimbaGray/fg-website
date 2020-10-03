@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import "../styles/Advertisements.css";
-import FG_1 from "../images/Stills/FG_1.png";
-import FG_2 from "../images/Stills/FG_2.png";
-import FG_3 from "../images/Stills/FG_3.png";
-import FG_4 from "../images/Stills/FG_4.jpg";
+import MND1 from "../images/Adverts/MND1.png";
+import MND2 from "../images/Adverts/MND2.png";
+import MND3 from "../images/Adverts/MND3.png";
+import MND4 from "../images/Adverts/MND4.png";
+import MIT1 from "../images/Adverts/MIT1.png";
+import MIT2 from "../images/Adverts/MIT2.png";
+import MIT3 from "../images/Adverts/MIT3.png";
+import MIT4 from "../images/Adverts/MIT4.png";
 
 class Advertisements extends Component {
   render() {
@@ -11,12 +15,20 @@ class Advertisements extends Component {
       <div>
         <div className="row">
           <div className="column">
-            <img src={FG_1} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_2} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MND1} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MIT1} alt="Brazilian Glow Logo" className="stills" />
           </div>
           <div className="column">
-            <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MND2} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MIT2} alt="Brazilian Glow Logo" className="stills" />
+          </div>
+          <div className="column">
+            <img src={MND3} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MIT3} alt="Brazilian Glow Logo" className="stills" />
+          </div>
+          <div className="column">
+            <img src={MND4} alt="Brazilian Glow Logo" className="stills" />
+            <img src={MIT4} alt="Brazilian Glow Logo" className="stills" />
           </div>
           <div className="column"></div>
           <div className="column"></div>

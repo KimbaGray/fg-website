@@ -33,7 +33,7 @@ class About extends Component {
           baskets. LOVES. Big basket fan.
         </p>
         <p className="inquiries">
-          Inquiries:{" "}
+          Contact:{" "}
           <a href="mailto:felicitygabriellagray@gmail.com">
             felicitygabriellagray@gmail.com
           </a>

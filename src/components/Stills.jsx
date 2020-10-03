@@ -91,17 +91,21 @@ class Stills extends Component {
           <div className="column">
             <img
               src={FG_1}
-              alt="Brazilian Glow Logo"
+              alt="Black and white, woman leaning on her hand"
               className="stills"
               onClick={() => this.setState({ isOpen: true })}
             />
             <img
               src={FG_2}
-              alt="Brazilian Glow Logo"
+              alt="Black and white, close up of woman with a frilly turtle-neck and dangly earring"
               className="stills"
               onClick={() => this.setState({ isOpen: true })}
             />
-            <img src={FG_3} alt="Brazilian Glow Logo" className="stills" />
+            <img
+              src={FG_3}
+              alt="Black and white, woman leaning against a tree"
+              className="stills"
+            />
             <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_5} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_6} alt="Brazilian Glow Logo" className="stills" />
@@ -116,28 +120,6 @@ class Stills extends Component {
             <img src={FG_15} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_16} alt="Brazilian Glow Logo" className="stills" />
             <img src={FG_17} alt="Brazilian Glow Logo" className="stills" />
-
-            {isOpen && (
-              <Lightbox
-                mainSrc={images[photoIndex]}
-                nextSrc={images[(photoIndex + 1) % images.length]}
-                prevSrc={
-                  images[(photoIndex + images.length - 1) % images.length]
-                }
-                onCloseRequest={() => this.setState({ isOpen: false })}
-                onMovePrevRequest={() =>
-                  this.setState({
-                    photoIndex:
-                      (photoIndex + images.length - 1) % images.length,
-                  })
-                }
-                onMoveNextRequest={() =>
-                  this.setState({
-                    photoIndex: (photoIndex + 1) % images.length,
-                  })
-                }
-              />
-            )}
           </div>
           <div className="column">
             <img src={FG_19} alt="Brazilian Glow Logo" className="stills" />
@@ -200,6 +182,25 @@ class Stills extends Component {
             <img src={FG_18} alt="Brazilian Glow Logo" className="stills" />
           </div>
         </div>
+
+        {isOpen && (
+          <Lightbox
+            mainSrc={images[photoIndex]}
+            nextSrc={images[(photoIndex + 1) % images.length]}
+            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            onCloseRequest={() => this.setState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + images.length - 1) % images.length,
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % images.length,
+              })
+            }
+          />
+        )}
       </div>
     );
   }
