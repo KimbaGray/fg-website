@@ -15,23 +15,101 @@ class Advertisements extends Component {
       <div>
         <div className="row">
           <div className="column">
-            <img src={MND1} alt="Brazilian Glow Logo" className="stills" />
-            <img src={MIT1} alt="Brazilian Glow Logo" className="stills" />
+            <a
+              href="https://www.youtube.com/watch?v=Zb0ilz6m5aU&feature=youtu.be&ab_channel=MNDAssociation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MND1}
+                alt="Woman lying on a stage with a spotlight"
+                className="stills"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7rr3F90260g&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MIT1}
+                alt="Young boy holding a blue cap on his head"
+                className="stills"
+              />
+            </a>
           </div>
           <div className="column">
-            <img src={MND2} alt="Brazilian Glow Logo" className="stills" />
-            <img src={MIT2} alt="Brazilian Glow Logo" className="stills" />
+            <a
+              href="https://www.youtube.com/watch?v=Zb0ilz6m5aU&feature=youtu.be&ab_channel=MNDAssociation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MND2}
+                alt="Close-up of woman lying on stage"
+                className="stills"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7rr3F90260g&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MIT2}
+                alt="Young boys in red sports gear standing at the edge of a sports field"
+                className="stills"
+              />
+            </a>
           </div>
           <div className="column">
-            <img src={MND3} alt="Brazilian Glow Logo" className="stills" />
-            <img src={MIT3} alt="Brazilian Glow Logo" className="stills" />
+            <a
+              href="https://www.youtube.com/watch?v=Zb0ilz6m5aU&feature=youtu.be&ab_channel=MNDAssociation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MND3}
+                alt="Above view of woman in red lying of the stage with a spotlight on her"
+                className="stills"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7rr3F90260g&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MIT3}
+                alt="Two older women looking at the camera and holding the tail of a fish"
+                className="stills"
+              />
+            </a>
           </div>
           <div className="column">
-            <img src={MND4} alt="Brazilian Glow Logo" className="stills" />
-            <img src={MIT4} alt="Brazilian Glow Logo" className="stills" />
+            <a
+              href="https://www.youtube.com/watch?v=Zb0ilz6m5aU&feature=youtu.be&ab_channel=MNDAssociation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MND4}
+                alt="View of the back of a woman walking through a dark tunnel"
+                className="stills"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7rr3F90260g&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MIT4}
+                alt="Faraway shot from behind of three people fishing"
+                className="stills"
+              />
+            </a>
           </div>
-          <div className="column"></div>
-          <div className="column"></div>
         </div>
       </div>
     );
