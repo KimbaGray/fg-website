@@ -3,7 +3,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import Stills from "./components/Stills.jsx";
+import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
@@ -17,10 +17,10 @@ function App() {
       <div>
         <Navigation />
         <Switch>
-          <Route exact path="/stills" component={Stills} />
-          <Route path="/about" component={About} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/stills" component={Home} />
           <Route path="/advertisements" component={Advertisements} />
-          <Route exact path="/" component={Stills} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
       <Footer />

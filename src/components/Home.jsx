@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/Stills.css";
+import "../styles/Home.css";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import FG_1 from "../images/Stills/FG_1.png";
