@@ -9,17 +9,17 @@ class Navigation extends Component {
         <nav className="navbar">
           <div className="nav">
             <span className="navLink">
-              <Link className="nav-link" to="/Stills">
+              <Link className="nav-link" to="/home">
                 Stills
               </Link>
             </span>
             <span className="navLink">
-              <Link className="nav-link" to="/Advertisements">
+              <Link className="nav-link" to="/advertisements">
                 Advertisements
               </Link>
             </span>
             <span className="navLink">
-              <Link className="nav-link" to="/About">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </span>

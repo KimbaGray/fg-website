@@ -7,6 +7,7 @@ import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
+import Error from "./components/Error";
 import ScrollToTopBtn from "./utils/scrollToTopBtn";
 
 
@@ -20,9 +21,10 @@ function App() {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/Stills" component={Home} />
-          <Route path="/Advertisements" component={Advertisements} />
-          <Route path="/About" component={About} />
+          <Route path="/stills" component={Home} />
+          <Route path="/advertisements" component={Advertisements} />
+          <Route path="/about" component={About} />
+          <Route component={Error} />
         </Switch>
         <ScrollToTopBtn />
       </div>
