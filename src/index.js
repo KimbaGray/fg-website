@@ -2,14 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import ScrollToTopBtn from "./utils/scrollToTopBtn";
 import { BrowserRouter } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <ScrollToTopBtn />
   </BrowserRouter>,
   document.getElementById("root")
 );

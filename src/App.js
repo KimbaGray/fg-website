@@ -7,6 +7,8 @@ import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
+import ScrollToTopBtn from "./utils/scrollToTopBtn";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="/advertisements" component={Advertisements} />
           <Route path="/about" component={About} />
         </Switch>
+        <ScrollToTopBtn />
       </div>
       <Footer />
     </div>
