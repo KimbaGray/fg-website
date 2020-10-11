@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Error extends Component {
     state = {  }
     render() { 
-        return (<div><h1>Oops! Page not found!</h1></div>  );
+        return (<div><p><h2>This page was not found.</h2></p></div>  );
     }
 }
  
