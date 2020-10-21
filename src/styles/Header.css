@@ -12,3 +12,18 @@
     margin-bottom: 5vh;
   }
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.arrowUp {
+  background-color: white;
+  color: #6d6e70;
+  font-size: 30px;
+  padding-right: 2vh;
+  border-radius: 3px;
+}

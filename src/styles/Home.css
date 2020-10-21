@@ -29,21 +29,6 @@ a {
   cursor: pointer;
 }
 
-/* 
-.topButton {
-  padding-top: 70px;
-} */
-
-/* .myBtn {
-  padding: 10px;
-  padding-bottom: 6px;
-  background: #6d6e70;
-  color: white;
-  border-color: #6d6e70;
-  font-size: 22px;
-  border-radius: 5px;
-} */
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {

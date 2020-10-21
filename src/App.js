@@ -8,8 +8,6 @@ import About from "./components/About.jsx";
 import Advertisements from "./components/Advertisements.jsx";
 import Navigation from "./components/Navigation.jsx";
 import Error from "./components/Error";
-import ScrollToTopBtn from "./utils/scrollToTopBtn";
-
 
 function App() {
   return (
@@ -26,7 +24,6 @@ function App() {
           <Route path="/about" component={About} />
           <Route component={Error} />
         </Switch>
-        <ScrollToTopBtn />
       </div>
       <Footer />
     </div>
