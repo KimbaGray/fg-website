@@ -30,6 +30,7 @@ class About extends Component {
             felicitygabriellagray@gmail.com
           </a>
         </p>
+        <div className="spacerDiv"></div>
       </div>
     );
   }
