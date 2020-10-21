@@ -31,7 +31,6 @@ import FG_26 from "../images/Stills/FG_26.jpg";
 import FG_27 from "../images/Stills/FG_27.jpg";
 import FG_28 from "../images/Stills/FG_28.jpg";
 import FG_29 from "../images/Stills/FG_29.png";
-import FG_30 from "../images/Stills/FG_30.png";
 import FG_31 from "../images/Stills/FG_31.png";
 import FG_32 from "../images/Stills/FG_32.png";
 import FG_33 from "../images/Stills/FG_33.png";
@@ -106,80 +105,79 @@ class Stills extends Component {
               alt="Black and white, woman leaning against a tree"
               className="stills"
             />
-            <img src={FG_4} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_5} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_6} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_7} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_8} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_9} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_10} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_11} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_12} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_13} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_14} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_15} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_16} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_17} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_4} alt="Group of young people standing together, leaning against a wall on the right in a glamourous room" className="stills" />
+            <img src={FG_5} alt="Black and white, young man lying on the floor with his head on his folded arms" className="stills" />
+            <img src={FG_6} alt="Two young women, one is sat on a high bar chair and the other is standing and leaning on the high table" className="stills" />
+            <img src={FG_7} alt="Young man in a velvet blue blazer, sitting on leather cube chair" className="stills" />
+            <img src={FG_8} alt="Close-up of a young man in a black and white checked jumper" className="stills" />
+            <img src={FG_9} alt="Young man in a blue suit and young woman in black skirt sitting on a white leather sofa" className="stills" />
+            <img src={FG_10} alt="Black and white of young man sitting back in an arm chair" className="stills" />
+            <img src={FG_11} alt="Group of young people, crowded together and leaning on a hotel suitcase trolley" className="stills" />
+            <img src={FG_12} alt="Black and white of a young man sitting on a high bar chair, one leg propped up on the chair" className="stills" />
+            <img src={FG_13} alt="Young man sitting on the floor, in khaki trousers and blue jacket, leaning against a marble wall" className="stills" />
+            <img src={FG_14} alt="Black and white of young man in a denim jacket" className="stills" />
+            <img src={FG_15} alt="Young man against a blue background wearing a white jumper with black and red stripes" className="stills" />
+            <img src={FG_16} alt="Young woman in a mustard yellow dress sitting against a black marble wall, on a black leather bench" className="stills" />
+            <img src={FG_17} alt="Black and white of young man sitting on a chair, leaning forwards" className="stills" />
           </div>
           <div className="column">
-            <img src={FG_19} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_20} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_21} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_22} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_23} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_24} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_25} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_26} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_27} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_28} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_29} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_30} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_31} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_32} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_33} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_34} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_35} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_36} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_53} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_54} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_19} alt="Black and white, man standing and leaning against metal circular staircase" className="stills" />
+            <img src={FG_20} alt="Black and white, young man sitting on the floor and leaning against sofa" className="stills" />
+            <img src={FG_21} alt="Black and white, man with beard looking above into the distance, suspension bridge in the background" className="stills" />
+            <img src={FG_22} alt="Young man in denim jacket, leaning against a white wall" className="stills" />
+            <img src={FG_23} alt="Man in blue suit, sitting on a high bar stool, leaning fowards towards camera" className="stills" />
+            <img src={FG_24} alt="Young man sitting on a chair, head in hands, pink background" className="stills" />
+            <img src={FG_25} alt="Young man sitting on white block, hands clasped together leaning forwards" className="stills" />
+            <img src={FG_26} alt="Woman in smart attire perched on a white, high stool" className="stills" />
+            <img src={FG_27} alt="Woman sitting on floor cross-legged, her had leaning on her hand" className="stills" />
+            <img src={FG_28} alt="Black and white, young man in stripy top, four portraits in one" className="stills" />
+            <img src={FG_29} alt="Two portraits side by side, young man on leather stool and two young women leaning on high bar table" className="stills" />
+            <img src={FG_31} alt="Two portraits side by side, group of people standing on baggage trolley and young man sitting on floor" className="stills" />
+            <img src={FG_32} alt="Two portraits side by side, young woman in yellow sitting on black bench and three young men sitting against a fake background with mountains" className="stills" />
+            <img src={FG_33} alt="Black and white, man and woman in back of taxi, glamourous attire" className="stills" />
+            <img src={FG_34} alt="Front page of tmrw magazine, black and white, man walking down street looking up" className="stills" />
+            <img src={FG_35} alt="Woman laughing and looking behind to camera, in blue denim jacket" className="stills" />
+            <img src={FG_36} alt="Man leaning on table, arm behind him resting on chair" className="stills" />
+            <img src={FG_53} alt="Man sitting on sofa wearing blue mackintosh coat" className="stills" />
+            <img src={FG_54} alt="Black and white, man sitting on sofa wearing mackintosh coat" className="stills" />
+            <img src={FG_18} alt="Black and white, far-away shot of young man leaning on a balcony" className="stills" />
           </div>
           <div className="column">
-            <img src={FG_56} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_38} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_39} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_40} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_41} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_42} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_43} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_44} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_45} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_46} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_47} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_48} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_49} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_50} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_51} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_52} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_71} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_56} alt="Man laughing, leaning on a chair, in white jacket, framed artwork behind" className="stills" />
+            <img src={FG_38} alt="Young woman in blue jacket, checked trousers, looking down to camera" className="stills" />
+            <img src={FG_39} alt="Close-up, younf woman with short blonde hair, black and white striped jumper" className="stills" />
+            <img src={FG_40} alt="Close-up, black and white, striped top and denim shirt" className="stills" />
+            <img src={FG_41} alt="Young woman in green turtleneck and camel brown long skirt" className="stills" />
+            <img src={FG_42} alt="Young man in burgundy ren suit leaning against marble bathtub" className="stills" />
+            <img src={FG_43} alt="Young man with long brown hair, denim jacket and checked shirt sitting on leather chair" className="stills" />
+            <img src={FG_44} alt="Young man with long brown hair, in red laopard print shirt and black jacket" className="stills" />
+            <img src={FG_45} alt="Young man with long brown hair, close up in denim jacket and checked shirt" className="stills" />
+            <img src={FG_46} alt="Black and white, young man with long brown hair in checked jacket and striped jumper" className="stills" />
+            <img src={FG_47} alt="Young man with long brown hair in black hoody and checked blazer" className="stills" />
+            <img src={FG_48} alt="Young man with long brown hair in checked jacket and blue and white striped jumper" className="stills" />
+            <img src={FG_49} alt="Black and white, man sitting on floor and leaning against wall, resting hand on chin" className="stills" />
+            <img src={FG_50} alt="Three young men sitting against a fake background with mountains" className="stills" />
+            <img src={FG_51} alt="Two portraits side by side, three young people standing outside in winter coats and two people standing outside. Both have lit buildings in the background" className="stills" />
+            <img src={FG_52} alt="Close-up of young woman in black strappy top" className="stills" />
+            <img src={FG_71} alt="Young woman in lilac jumper and striped skirt" className="stills" />
           </div>
           <div className="column">
-            <img src={FG_55} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_37} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_57} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_58} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_59} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_60} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_61} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_62} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_63} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_64} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_65} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_66} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_67} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_68} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_69} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_70} alt="Brazilian Glow Logo" className="stills" />
-            <img src={FG_18} alt="Brazilian Glow Logo" className="stills" />
+            <img src={FG_55} alt="Young man doing a magic trick with cards, facing the camera" className="stills" />
+            <img src={FG_37} alt="Young woman in red leather jacket against pink wall" className="stills" />
+            <img src={FG_57} alt="Black and white, young man looking to the camera" className="stills" />
+            <img src={FG_58} alt="Black and white, young man in thick coat sitting on a chair and looking intensely at camera" className="stills" />
+            <img src={FG_59} alt="Young man walking outside in a denim jacket, khaki trousers" className="stills" />
+            <img src={FG_60} alt="Young man on pebbled beach, in pink jumper" className="stills" />
+            <img src={FG_61} alt="Young man walking outside, in smart attire" className="stills" />
+            <img src={FG_62} alt="Young man outside in navy blue jacket with several pockets" className="stills" />
+            <img src={FG_63} alt="Man sitting on a chair, black and white, staring into camera" className="stills" />
+            <img src={FG_64} alt="Black and white, far-away shot, man sitting on a chair" className="stills" />
+            <img src={FG_65} alt="Black and white, young woman in high-waisted trousers and polo top" className="stills" />
+            <img src={FG_66} alt="Black and white, man sitting on high stool, hand leaning on leg" className="stills" />
+            <img src={FG_67} alt="Black and white, young man in glasses leaning on a table looking down" className="stills" />
+            <img src={FG_68} alt="Man, sitting on chair in denim shirt, looking upwards" className="stills" />
+            <img src={FG_69} alt="Man, standing against dark grey wall in dark grey suit blazer" className="stills" />
+            <img src={FG_70} alt="Man, sitting on stool against darkgrey background, hand covering chin" className="stills" />
           </div>
         </div>
 

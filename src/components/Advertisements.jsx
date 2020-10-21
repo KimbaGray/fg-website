@@ -218,7 +218,7 @@ class Advertisements extends Component {
             >
               <img
                 src={MIT13}
-                alt="Boy in baseball clothes leaning on a bat"
+                alt="Woman in pink top and grey leggings jogging"
                 className="stills"
               />
             </a>
@@ -275,7 +275,7 @@ class Advertisements extends Component {
             >
               <img
                 src={MIT11}
-                alt="Faraway shot from behind of three people fishing"
+                alt="Zoomed in of an older man holding a fish bait"
                 className="stills"
               />
             </a>
@@ -286,7 +286,7 @@ class Advertisements extends Component {
             >
               <img
                 src={MIT12}
-                alt="Faraway shot from behind of three people fishing"
+                alt="Front shot of a group of young men jogging outside"
                 className="stills"
               />
             </a>
@@ -297,7 +297,7 @@ class Advertisements extends Component {
             >
               <img
                 src={MIT10}
-                alt="Faraway shot from behind of three people fishing"
+                alt="Shot from behind of a grorup of young men jogging outside"
                 className="stills"
               />
             </a>
