@@ -183,6 +183,7 @@ class Stills extends Component {
           </div>
         </div>
 
+
         {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
@@ -201,6 +202,7 @@ class Stills extends Component {
             }
           />
         )}
+         <div className="spacerDiv"></div>
       </div>
     );
   }
