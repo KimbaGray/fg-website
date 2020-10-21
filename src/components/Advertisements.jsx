@@ -18,11 +18,12 @@ import MIT3 from "../images/Adverts/MIT3.png";
 import MIT4 from "../images/Adverts/MIT4.png";
 import MIT5 from "../images/Adverts/MIT5.png";
 import MIT6 from "../images/Adverts/MIT6.png";
-import MIT7 from "../images/Adverts/MIT7.png";
 import MIT8 from "../images/Adverts/MIT8.png";
 import MIT9 from "../images/Adverts/MIT9.png";
-import MIT11 from "../images/Adverts/MIT11.png";
 import MIT10 from "../images/Adverts/MIT10.png";
+import MIT11 from "../images/Adverts/MIT11.png";
+import MIT12 from "../images/Adverts/MIT12.png";
+import MIT13 from "../images/Adverts/MIT13.png";
 
 class Advertisements extends Component {
   render() {
@@ -216,6 +217,17 @@ class Advertisements extends Component {
               rel="noopener noreferrer"
             >
               <img
+                src={MIT13}
+                alt="Boy in baseball clothes leaning on a bat"
+                className="stills"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7rr3F90260g&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
                 src={MIT8}
                 alt="Boy in baseball clothes leaning on a bat"
                 className="stills"
@@ -273,7 +285,7 @@ class Advertisements extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src={MIT7}
+                src={MIT12}
                 alt="Faraway shot from behind of three people fishing"
                 className="stills"
               />
