@@ -1,3 +1,24 @@
+.ril__caption,
+.ril__toolbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ril__builtinButton {
+  opacity: 0 !important;
+}
+
+.ril__outer {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.ril__navButtonNext {
+  background-color: #6d6e70 !important;
+}
+
+.ril__navButtonPrev {
+  background-color: #6d6e70 !important;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;

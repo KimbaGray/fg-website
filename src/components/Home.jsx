@@ -104,7 +104,6 @@ const images = [
   FG_28,
   FG_29,
   FG_31,
-  FG_31,
   FG_32,
   FG_33,
   FG_34,
@@ -148,10 +147,14 @@ const images = [
 ];
 
 class Stills extends Component {
-  state = {
-    photoIndex: 0,
-    isOpen: false,
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      photoIndex: 0,
+      isOpen: false
+    };
+  }
 
   render() {
     const { photoIndex, isOpen } = this.state;
@@ -164,88 +167,103 @@ class Stills extends Component {
               src={FG_1}
               alt="Black and white, woman leaning on her hand"
               className="stills"
-              onClick={() => this.setState({ isOpen: true })}
+              onClick={() => this.setState({ isOpen: true, photoIndex:0 })}
             />
             <img
               src={FG_2}
               alt="Black and white, close up of woman with a frilly turtle-neck and dangly earring"
               className="stills"
-              onClick={() => this.setState({ isOpen: true })}
+              onClick={() => this.setState({ isOpen: true, photoIndex:1  })}
             />
             <img
               src={FG_3}
               alt="Black and white, woman leaning against a tree"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:2 })}
             />
             <img
               src={FG_4}
               alt="Group of young people standing together, leaning against a wall on the right in a glamourous room"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:3  })}
             />
             <img
               src={FG_5}
               alt="Black and white, young man lying on the floor with his head on his folded arms"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:4  })}
             />
             <img
               src={FG_6}
               alt="Two young women, one is sat on a high bar chair and the other is standing and leaning on the high table"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:5  })}
             />
             <img
               src={FG_7}
               alt="Young man in a velvet blue blazer, sitting on leather cube chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:6  })}
             />
             <img
               src={FG_8}
               alt="Close-up of a young man in a black and white checked jumper"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:7  })}
             />
             <img
               src={FG_9}
               alt="Young man in a blue suit and young woman in black skirt sitting on a white leather sofa"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:8  })}
             />
             <img
               src={FG_10}
               alt="Black and white of young man sitting back in an arm chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:9  })}
             />
             <img
               src={FG_11}
               alt="Group of young people, crowded together and leaning on a hotel suitcase trolley"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:10  })}
             />
             <img
               src={FG_12}
               alt="Black and white of a young man sitting on a high bar chair, one leg propped up on the chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:11  })}
             />
             <img
               src={FG_13}
               alt="Young man sitting on the floor, in khaki trousers and blue jacket, leaning against a marble wall"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:12  })}
             />
             <img
               src={FG_14}
               alt="Black and white of young man in a denim jacket"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:13  })}
             />
             <img
               src={FG_15}
               alt="Young man against a blue background wearing a white jumper with black and red stripes"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:14  })}
             />
             <img
               src={FG_16}
               alt="Young woman in a mustard yellow dress sitting against a black marble wall, on a black leather bench"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:15  })}
             />
             <img
               src={FG_17}
               alt="Black and white of young man sitting on a chair, leaning forwards"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:16  })}
             />
           </div>
           <div className="column">
@@ -253,101 +271,121 @@ class Stills extends Component {
               src={FG_19}
               alt="Black and white, man standing and leaning against metal circular staircase"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:18  })}
             />
             <img
               src={FG_20}
               alt="Black and white, young man sitting on the floor and leaning against sofa"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:19  })}
             />
             <img
               src={FG_21}
               alt="Black and white, man with beard looking above into the distance, suspension bridge in the background"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:20  })}
             />
             <img
               src={FG_22}
               alt="Young man in denim jacket, leaning against a white wall"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:21  })}
             />
             <img
               src={FG_23}
               alt="Man in blue suit, sitting on a high bar stool, leaning fowards towards camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:22  })}
             />
             <img
               src={FG_24}
               alt="Young man sitting on a chair, head in hands, pink background"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:23  })}
             />
             <img
               src={FG_25}
               alt="Young man sitting on white block, hands clasped together leaning forwards"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:24  })}
             />
             <img
               src={FG_26}
               alt="Woman in smart attire perched on a white, high stool"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:25  })}
             />
             <img
               src={FG_27}
               alt="Woman sitting on floor cross-legged, her had leaning on her hand"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:26  })}
             />
             <img
               src={FG_28}
               alt="Black and white, young man in stripy top, four portraits in one"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:27  })}
             />
             <img
               src={FG_29}
               alt="Two portraits side by side, young man on leather stool and two young women leaning on high bar table"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:28  })}
             />
             <img
               src={FG_31}
               alt="Two portraits side by side, group of people standing on baggage trolley and young man sitting on floor"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:29 })}
             />
             <img
               src={FG_32}
               alt="Two portraits side by side, young woman in yellow sitting on black bench and three young men sitting against a fake background with mountains"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:30  })}
             />
             <img
               src={FG_33}
               alt="Black and white, man and woman in back of taxi, glamourous attire"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:31  })}
             />
             <img
               src={FG_34}
               alt="Front page of tmrw magazine, black and white, man walking down street looking up"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:32  })}
             />
             <img
               src={FG_35}
               alt="Woman laughing and looking behind to camera, in blue denim jacket"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:33  })}
             />
             <img
               src={FG_36}
               alt="Man leaning on table, arm behind him resting on chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:34  })}
             />
             <img
               src={FG_53}
               alt="Man sitting on sofa wearing blue mackintosh coat"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:51  })}
             />
             <img
               src={FG_54}
               alt="Black and white, man sitting on sofa wearing mackintosh coat"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:52  })}
             />
             <img
               src={FG_18}
               alt="Black and white, far-away shot of young man leaning on a balcony"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:17  })}
             />
           </div>
           <div className="column">
@@ -355,86 +393,103 @@ class Stills extends Component {
               src={FG_56}
               alt="Man laughing, leaning on a chair, in white jacket, framed artwork behind"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 54  })}
             />
             <img
               src={FG_38}
               alt="Young woman in blue jacket, checked trousers, looking down to camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:36  })}
             />
             <img
               src={FG_39}
               alt="Close-up, younf woman with short blonde hair, black and white striped jumper"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:37  })}
             />
             <img
               src={FG_40}
               alt="Close-up, black and white, striped top and denim shirt"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:38  })}
             />
             <img
               src={FG_41}
               alt="Young woman in green turtleneck and camel brown long skirt"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:39  })}
             />
             <img
               src={FG_42}
               alt="Young man in burgundy ren suit leaning against marble bathtub"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:40  })}
             />
             <img
               src={FG_43}
               alt="Young man with long brown hair, denim jacket and checked shirt sitting on leather chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:41  })}
             />
             <img
               src={FG_44}
               alt="Young man with long brown hair, in red laopard print shirt and black jacket"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:42  })}
             />
             <img
               src={FG_45}
               alt="Young man with long brown hair, close up in denim jacket and checked shirt"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:43  })}
             />
             <img
               src={FG_46}
               alt="Black and white, young man with long brown hair in checked jacket and striped jumper"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:44  })}
             />
             <img
               src={FG_47}
               alt="Young man with long brown hair in black hoody and checked blazer"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:45  })}
             />
             <img
               src={FG_48}
               alt="Young man with long brown hair in checked jacket and blue and white striped jumper"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:46  })}
             />
             <img
               src={FG_49}
               alt="Black and white, man sitting on floor and leaning against wall, resting hand on chin"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:47  })}
             />
             <img
               src={FG_50}
               alt="Three young men sitting against a fake background with mountains"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:48  })}
             />
             <img
               src={FG_51}
               alt="Two portraits side by side, three young people standing outside in winter coats and two people standing outside. Both have lit buildings in the background"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:49  })}
             />
             <img
               src={FG_52}
               alt="Close-up of young woman in black strappy top"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:50  })}
             />
             <img
               src={FG_71}
               alt="Young woman in lilac jumper and striped skirt"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:69  })}
             />
           </div>
           <div className="column">
@@ -442,81 +497,97 @@ class Stills extends Component {
               src={FG_55}
               alt="Young man doing a magic trick with cards, facing the camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:53  })}
             />
             <img
               src={FG_37}
               alt="Young woman in red leather jacket against pink wall"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:35  })}
             />
             <img
               src={FG_57}
               alt="Black and white, young man looking to the camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:55  })}
             />
             <img
               src={FG_58}
               alt="Black and white, young man in thick coat sitting on a chair and looking intensely at camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:56  })}
             />
             <img
               src={FG_59}
               alt="Young man walking outside in a denim jacket, khaki trousers"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:57  })}
             />
             <img
               src={FG_60}
               alt="Young man on pebbled beach, in pink jumper"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:58  })}
             />
             <img
               src={FG_61}
               alt="Young man walking outside, in smart attire"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:59  })}
             />
             <img
               src={FG_62}
               alt="Young man outside in navy blue jacket with several pockets"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:60  })}
             />
             <img
               src={FG_63}
               alt="Man sitting on a chair, black and white, staring into camera"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:61  })}
             />
             <img
               src={FG_64}
               alt="Black and white, far-away shot, man sitting on a chair"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:62  })}
             />
             <img
               src={FG_65}
               alt="Black and white, young woman in high-waisted trousers and polo top"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:63  })}
             />
             <img
               src={FG_66}
               alt="Black and white, man sitting on high stool, hand leaning on leg"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:64  })}
             />
             <img
               src={FG_67}
               alt="Black and white, young man in glasses leaning on a table looking down"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:65  })}
             />
             <img
               src={FG_68}
               alt="Man, sitting on chair in denim shirt, looking upwards"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:66  })}
             />
             <img
               src={FG_69}
               alt="Man, standing against dark grey wall in dark grey suit blazer"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:67  })}
             />
             <img
               src={FG_70}
               alt="Man, sitting on stool against darkgrey background, hand covering chin"
               className="stills"
+              onClick={() => this.setState({ isOpen: true, photoIndex:68  })}
             />
           </div>
         </div>
@@ -546,3 +617,5 @@ class Stills extends Component {
 }
 
 export default Stills;
+
+
