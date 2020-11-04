@@ -4,7 +4,11 @@
 }
 
 .ril__builtinButton {
-  opacity: 0 !important;
+  background-color: #6d6e70 !important;
+}
+
+.ril__zoomOutButton {
+  background-color: #6d6e70 !important;
 }
 
 .ril__outer {
