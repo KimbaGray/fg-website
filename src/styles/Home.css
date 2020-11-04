@@ -23,6 +23,10 @@
   background-color: #6d6e70 !important;
 }
 
+.ril__navButtons {
+  padding: 30px 20px !important;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
