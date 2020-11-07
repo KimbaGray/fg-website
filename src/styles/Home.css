@@ -27,6 +27,10 @@
   padding: 30px 20px !important;
 }
 
+.ril__loadingContainer__icon {
+  color: #6d6e70 !important;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
