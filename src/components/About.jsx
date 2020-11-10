@@ -26,8 +26,8 @@ class About extends Component {
         </p>
         <p className="inquiries">
           Contact:{" "}
-          <a href="mailto:felicitygabriellagray@gmail.com">
-            felicitygabriellagray@gmail.com
+          <a href="mailto:felicity@felicitygray.co.uk">
+            felicity@felicitygray.co.uk
           </a>
         </p>
         <div className="spacerDiv"></div>

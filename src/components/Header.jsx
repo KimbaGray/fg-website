@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import ScrollToTopBtn from "../utils/scrollToTopBtn";
 
-class Navigation extends Component {
+class Header extends Component {
   render() {
     return (
       <div className="customNav">
@@ -17,4 +17,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default Header;
