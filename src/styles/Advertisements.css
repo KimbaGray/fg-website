@@ -33,12 +33,21 @@ a {
   height: 5vh;
 }
 
+.video {
+  margin-top: 1.5vh;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+
+  .video {
+    margin-top: 1.5vh;
+    width: 100%;
   }
 }
 
@@ -49,5 +58,8 @@ a {
     flex: 100%;
     max-width: 100%;
     padding-top: 0px;
+  }
+  .video {
+    margin-top: 1.5vh;
   }
 }
