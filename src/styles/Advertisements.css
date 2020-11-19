@@ -34,7 +34,7 @@ a {
 }
 
 .video {
-  margin-top: 1.5vh;
+  margin: 1.5vh;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -46,7 +46,7 @@ a {
   }
 
   .video {
-    margin-top: 1.5vh;
+    margin: 1.5vh;
     width: 100%;
   }
 }
@@ -60,6 +60,6 @@ a {
     padding-top: 0px;
   }
   .video {
-    margin-top: 1.5vh;
+    margin: 1.5vh;
   }
 }
