@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div>
         <div className="footer">
-          <div>&copy; Kim Gray 2020</div>
+          <div>&copy; Kim Gray {new Date().getFullYear()}</div>
         </div>
       </div>
     );
